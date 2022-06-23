@@ -7,7 +7,7 @@
     "deploy": "vue-tsc --noEmit && vite build --base '/vue-ts/'",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue",
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore --fix src",
     "test": "jest"
   },
   "dependencies": {
